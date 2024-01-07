@@ -48,14 +48,58 @@ nav > ul{
     /* banner header style */
     .header{
         background-color: bisque;
+        background-image: url('../images/modern-flowing-blue-wave-banner-white-background_1035-18960.avif');
+        background-repeat: no-repeat ;
+        background-position: bottom right;
     }
     .banner{
-        padding: 30px 30px 30px 150px;
+        padding: 30px 30px 0px 150px;
         display: flex;
         align-content: center;
 
     }
     .banner .profile-pic{
         width: 500px;
+        justify-content: space-between;
+    }
+    .banner-greating {
+        font-size: 45px;
+        color: #474747;
+        margin-bottom: 0px;
+    }
+    .banner-tittle{
+        font-size: 85;
+        font-style: normal;
+        font-weight: 700;
+        margin: 5px;
+        margin-bottom: 20px;
+    }
+    .banner-content{
+        max-width: 500px;
+    }
+    .banner-dis{
+        margin-top: 5pz;
+    }
+    /* main section style */
+
+    /* about section style */
+    .about{
+        padding: 30px;
+        background: #FFF8F3;
+        border-radius: 10px;
+        margin: 130px 0px;
+
+    }
+    .section-tittle{
+        text-align: center;
+        color: #181818;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .section-description{
+        text-align: center;
+        color: #474747;
+        font-size: 18px;
+        
     }
        
