@@ -60,7 +60,7 @@ nav > ul{
     }
     .banner .profile-pic{
         width: 500px;
-        justify-content: space-between;
+    justify-content: space-between;
     }
     .banner-greating {
         font-size: 45px;
@@ -76,12 +76,17 @@ nav > ul{
     }
     .banner-content{
         max-width: 500px;
+       
     }
     .banner-dis{
         margin-top: 5pz;
+        
     }
     /* main section style */
-
+     main{
+         max-width: 1140px;
+         margin: 0px auto;
+     }
     /* about section style */
     .about{
         padding: 30px;
@@ -101,5 +106,13 @@ nav > ul{
         color: #474747;
         font-size: 18px;
         
+    }
+    
+    .about-informatiom-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-info{
+        text-align: center;
     }
        
